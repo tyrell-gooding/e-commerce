@@ -1,0 +1,97 @@
+[
+    {
+        "photo": "images/jordanshirt.webp",
+        "name": "micheal jordan chicago bulls",
+        "price": "35.00",
+        "desc": "micheal jordan chicago bulls skeliton shirt"
+
+    },
+
+    {
+        "photo": "images/boiseshirt.webp",
+        "name": "boise state shirt",
+        "price": "34.99",
+        "desc": "ashton jeanty is playing at a high level why not have your swag at a high level"
+
+    },
+
+    {
+        "photo": "images/jjettasshirt.webp",
+        "name": "justin jefferson shirt",
+        "price": "34.99",
+        "desc": "justin jefferson is a top receiver in the NFL on the field and with his swag you to can have top receiver swag"
+
+    },
+
+    {
+        "photo": "images/kinghenryshirt.webp",
+        "name": "derrick henry shirt",
+        "price": "34.99",
+        "desc": "king henry rules the nfl with his running you can rule your swag with this shirt"
+
+    },
+
+    {
+        "photo": "images/coloradoshirt.webp",
+        "name": "colorado buffaloes shirt",
+        "price": "34.99",
+        "desc": "colorado is on fire right now your swag can be too!!!"
+
+    },
+
+    {
+        "photo": "images/bostonshirt.webp",
+        "name": "boston celtics shirt",
+        "price": "34.99",
+        "desc": "the world champions of the NBA are the Boston celtics now your swag can be world champions"
+
+    },
+
+    {
+        "photo": "images/texasshirt.webp",
+        "name": "texas longhorns shirt",
+        "price": "34.99",
+        "desc": "is texas back? i dont know but your swag can be!"
+
+    },
+
+    {
+        "photo": "images/detroitshirt.webp",
+        "name": "detroit lions shirt",
+        "price": "34.99",
+        "desc": "are the lions serious this year? lol maybe guess we'll see if your swag is serious"
+
+    },
+
+    {
+        "photo": "images/travishunter.webp",
+        "name": "travis hunter shirt",
+        "price": "40.00",
+        "desc": "travis hunter the man, the myth, the legend and soon to be the heisman why not dress like him too"
+
+    },
+
+    {
+        "photo": "images/phillyshirt.webp",
+        "name": "philadelphia eagles shirt",
+        "price": "34.99",
+        "desc": "philly is the best team in the world you can have the best swag in the world wearing this shirt! GO BIRDS!"
+
+    },
+
+    {
+        "photo": "images/nycshirt.webp",
+        "name": "new york knicks shirt",
+        "price": "34.99",
+        "desc": "new york is the most visited city in the USA let everyone see you swag today!"
+
+    },
+
+    {
+        "photo": "images/houstonshirt.webp",
+        "name": "houston texans shirt",
+        "price": "34.99",
+        "desc": "everyone knows everything is bigger in texas including your swag"
+
+    }
+]

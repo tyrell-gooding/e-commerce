@@ -1,0 +1,234 @@
+body {
+    background-color: orange;
+    /* background-color: #181819;
+    background-image: url(./images/NYSlogo.png);
+    background-size: cover; */
+}
+ 
+ * {
+     margin: 0;
+     padding: 0;
+ }
+ .header{
+    align-items: end;
+
+    align-items: center;
+    
+ }
+
+ .Logo {
+position: inherit;
+/* height: auto; */
+/* left: 16px; */
+width: 150px;
+ }
+ ul{
+    list-style-type: none;
+    margin-left: 16px;
+    padding: 0;
+    overflow: hidden;
+    background-color: orange;
+    align-items: center;
+    font-size: 28px;
+ }
+
+ li{
+    float: inline-end;
+ }
+
+ li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+ }
+
+ li a:hover:not(.navlink) {
+    background-color: #181819;
+ }
+
+html {
+    height: 100vh; 
+    width: 100vw;
+    background-color: black;
+}
+
+ h1 {
+    position: relative;
+    background-color: black;
+    color: orange;
+    text-align: center;
+    overflow: hidden;
+} 
+
+#container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 20px; 
+    gap: 5px;
+    margin: 0 auto;
+    justify-content: center;
+    
+
+
+} 
+
+.item {
+   /* background-color: beige; */
+    border: 1px;
+    padding: 78px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+   
+
+}
+
+.item img {
+    width: 100%;
+    height: 100%;
+    /* object-fit: cover; */
+  
+}
+.item h4 {
+    font-size: 16px; 
+    font-weight: 300;
+    margin-top: 5px;
+}
+
+
+.item h3 {
+    font-size: 20px;
+    color: black;
+    /* margin-bottom: 0px; */
+    text-align: center;
+}
+
+.image-wrap {
+    width: 200px;
+    height: 250px;
+}
+
+p {
+    text-align: center;
+}
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    background-color: orange;
+   }
+
+   .footerImage{
+    height: 40px;
+    width: 40px;
+    border-radius: 1rem;
+    object-fit: contain;
+    margin: 0 8px;
+  }
+ /* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #181819;
+    background-image: url(./images/NYSlogo.png);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+  }  */
+  
+  /* html {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+  }
+ 
+  
+  
+  
+ 
+  .header {
+    align-items: end;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin-left: 16px;
+    padding: 0;
+    overflow: hidden;
+    background-color: orange;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  li {
+    display: inline-block;
+    margin: 10px;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.navlink) {
+    background-color: #181819;
+  } */
+  
+  /* Responsive Header */
+  
+  @media (max-width: 768px) {
+    ul {
+      flex-direction: column;
+    }
+  
+    li {
+      margin: 10px 0;
+    }
+  }
+  
+  
+  
+  
+  @media (max-width: 1200px) {
+    #container {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  @media (max-width: 900px) {
+    #container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 600px) {
+    #container {
+      grid-template-columns: 1fr;
+    }
+  
+    .item {
+      padding: 20px;
+    }
+  }
+  
+  
+ 
+  
+  @media (max-width: 600px) {
+    footer {
+      height: auto;
+      padding: 10px;
+    }
+  }
